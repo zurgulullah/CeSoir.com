@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    background-color: mediumaquamarine;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Début de ma class .topsite */
+.topsite {
+    height: 500px;
+    background: url(../img/planche.jpg) no-repeat;
+    background-size: cover;
+}
+
+.topsite header h1 {
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    padding: 20px 0 0 50px;
+    margin: 0;
+}
+
+.topsite header nav {
+    text-align: right;
+    margin-top: -70px;
+}
+
+.topsite header nav ul li {
+    display: inline;
+    
+}
+
+.topsite header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.topsite header nav ul li a:hover {
+    color: deeppink;
+    animation-duration: 1s;
+}
+
+.topsite img {
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+.topsite .fa {
+    font-size: 100px;
+    color: deeppink;
+    position: relative;
+    top: 180px;
+    left: -140px;
+}
+/* Fin de ma class .topsite */
+
+/* Début de ma class .midsite */
+/* Début de mon id #story */
+#story div:first-of-type {
+    width: 40%;
+    height: 500px;
+    float: left;
+    background: url(../img/texture.jpg);
+}
+
+#story div:first-of-type h2 {
+    font-size: 50px;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+}
+
+#story div:first-of-type p:first-of-type {
+    color: deeppink;
+    font-size: 100px;
+    position: absolute;
+    top: 450px;
+    left: 540px;
+}
+
+#story div:first-of-type p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#story div:first-of-type p:last-of-type {
+    color: deeppink;
+    font-weight: bold;
+}
+
+#story div:last-of-type {
+    width: 60%;
+    float: left;
+    height: 500px;
+}
+
+#story div:last-of-type img {
+    width: 800px;
+    height: 500px;
+    transform: scaleX(-1);
+}
+/* Fin de mon id story */
+
+/* Début de mon id #fare */
+#fare div:first-of-type {
+    width: 60%;
+    float: left;
+    height: 500px;
+}
+
+#fare div:first-of-type img {
+    width: 800px;
+    height: 500px;
+}
+
+#fare div:last-of-type {
+    width: 40%;
+    height: 500px;
+    float: left;
+    background: url(../img/texture.jpg);
+}
+
+#fare div:last-of-type h3 {
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+}
+
+#fare div:last-of-type p:first-of-type {
+    color: deeppink;
+    font-size: 100px;
+    position: absolute;
+    top: 940px;
+    left: 1340px;
+}
+
+#fare div:last-of-type p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#fare div:last-of-type p:last-of-type {
+    color: deeppink;
+    font-weight: bold;
+}
+/* Fin de mon id #fare */
+
+/* Début de mon id #drink */
+#drink div:first-of-type {
+    width: 40%;
+    height: 500px;
+    float: left;
+    background: url(../img/texture.jpg);
+}
+
+#drink div:first-of-type h3 {
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+}
+
+#drink div:first-of-type p:first-of-type {
+    color: deeppink;
+    font-size: 100px;
+    position: absolute;
+    top: 1440px;
+    left: 540px;
+}
+
+#drink div:first-of-type p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#drink div:first-of-type p:last-of-type {
+    color: deeppink;
+    font-weight: bold;
+}
+
+#drink div:last-of-type {
+    width: 60%;
+    float: left;
+    height: 500px;
+}
+
+#drink div:last-of-type img {
+    width: 800px;
+    height: 500px;
+}
+/* Fin de mon id #drink */
+.egg {
+    height: 700px;
+}
+
+.egg img {
+    width: 100%;
+    height: 700px;
+}
+/* Fin de ma class .midsite */
+
+/* Début de ma class .botsite */
+.botsite {
+    height: 300px;
+    background: url(../img/texture.jpg);
+}
+
+.botsite footer h3 {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    padding: 50px 0 0 40px;
+}
+
+.botsite footer p {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.botsite footer p:first-of-type {
+    padding-top: 50px;
+    color: deeppink;
+    font-size: 100px;
+    position: absolute;
+    top: 2690px;
+    left: 320px;
+} 
+
+.botsite footer p:nth-of-type(2) {
+    padding-top: 50px;
+}
+
+.botsite footer div {
+    text-align: right;
+}
+
+.botsite footer div .fa {
+    color: deeppink;
+    text-align: right;
+    font-size: 25px;
+    padding-right: 25px;
+}
+/* Fin de ma class .botsite */
+
+
+/* Clear */
+.clear {
+    clear: both;
+}
